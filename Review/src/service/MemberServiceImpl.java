@@ -5,6 +5,15 @@ import java.util.ArrayList;
 import entity.Member;
 
 public class MemberServiceImpl implements MemberService{
+	
+	private static MemberServiceImpl singleton = new MemberServiceImpl();
+	
+	private MemberServiceImpl(){
+	};
+	
+	public static MemberServiceImpl getInstance(){
+		return singleton;
+	}
 
     @Override
     public String greet(int i){
