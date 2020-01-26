@@ -16,7 +16,7 @@ public class Main{
         for(Member member : list){
             System.out.println(member.getId() + "," + member.getName() + "," + member.getEmail());
         }
-        // 3�́E11�̉ۑ�
+		// 3章・11の課題
         System.out.println(service.sumOf(3, 5));
     }
 
