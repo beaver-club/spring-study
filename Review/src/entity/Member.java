@@ -4,9 +4,8 @@ public class Member{
     private int id;
     private String name;
     private String email;
-    
-    public Member(){
-    };
+
+    public Member(){}
 
     public Member(int id, String name, String email){
         this.id = id;
@@ -36,5 +35,5 @@ public class Member{
 
     public void setEmail(String email){
         this.email = email;
-    };
+    }
 }

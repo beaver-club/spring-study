@@ -5,15 +5,14 @@ import java.util.ArrayList;
 import entity.Member;
 
 public class MemberServiceImpl implements MemberService{
-	
-	private static MemberServiceImpl singleton = new MemberServiceImpl();
-	
-	private MemberServiceImpl(){
-	};
-	
-	public static MemberServiceImpl getInstance(){
-		return singleton;
-	}
+
+    private static MemberServiceImpl singleton = new MemberServiceImpl();
+
+    private MemberServiceImpl(){};
+
+    public static MemberServiceImpl getInstance(){
+        return singleton;
+    }
 
     @Override
     public String greet(int i){
@@ -39,5 +38,4 @@ public class MemberServiceImpl implements MemberService{
         }
         return sum;
     }
-
 }
