@@ -49,7 +49,20 @@ Springのデフォルトの設定を自動的に行う（これがないと、XM
 自動的にインスタンス化される  
 newしなくてもDependency Injection(DI)という仕組みにより、インスタンス化したオブジェクトをいつでも使えるように保管している
 
+#### @RequestMapping
+ドメイン以降のURLになる
+
+#### @GetMapping
+リクエストメソッドがGETの場合
+GETはURLでデータを、POSTはヘッダー情報としてデータを渡す
+Modelクラスは自動で渡されてくる
+Viewクラスに処理が移り、渡した値とともにHTMLファイルがレンダリングされる
+
 ## Modelクラス
 
 - リクエストスコープのこと（１つのリクエストの中でデータを保持する仕組み）
 - リクエストスコープでは1回のリクエストの間にメモリ上にデータを保持できるので、ViewがHTMLデータを作るときに必要なデータを与えることができる
+
+## Thymeleafの導入
+
+- 「thymeleaf.org」で検索し、Doc > Thymeleaf 3.0: Read online > 3 Using Texts にtymeleafをHTMLに追加する記述例が載っている
