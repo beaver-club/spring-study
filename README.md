@@ -79,4 +79,23 @@ Springではコンテナでクラスのnewを管理する（DIコンテナ）
 ## プロジェクトの構成
 
 - Springスターター・プロジェクト
-  - 型
+
+#### 型
+Gradle(Buildship 3.x)
+
+#### Javaバージョン
+11
+
+#### 開発ツール
+- Spring Boot DevTools
+  - Javaコードに変更を加えて保存したときに自動的にSpringが再起動する
+
+#### SQL
+- H2 Database
+- JDBC API
+
+#### テンプレートエンジン
+- Thymeleaf
+
+#### Web
+Spring Web(Spring Web Starter)
