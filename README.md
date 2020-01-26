@@ -67,6 +67,5 @@ Viewクラスに処理が移り、渡した値とともにHTMLファイルがレ
 
 - 「thymeleaf.org」で検索し、Doc > Thymeleaf 3.0: Read online > 3 Using Texts にtymeleafをHTMLに追加する記述例が載っている
 
-```Java
-<html xmlns:th="http://www.thymeleaf.org">
-```
+`<html xmlns:th="http://www.thymeleaf.org">`などを追加する
+
